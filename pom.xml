@@ -5,21 +5,19 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.7.2</version>
+        <version>2.6.3</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.dinsaren</groupId>
     <artifactId>bbu-app-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>bbu-app-server</name>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
     <description>bbu-app-server</description>
-
     <properties>
-        <java.version>11</java.version>
+        <java.version>1.8</java.version>
     </properties>
     <dependencies>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -75,12 +73,12 @@
         <dependency>
             <groupId>org.springdoc</groupId>
             <artifactId>springdoc-openapi-ui</artifactId>
-            <version>1.6.10</version>
+            <version>1.6.6</version>
         </dependency>
         <dependency>
             <groupId>org.springdoc</groupId>
             <artifactId>springdoc-openapi-webmvc-core</artifactId>
-            <version>1.6.10</version>
+            <version>1.6.8</version>
         </dependency>
 
     </dependencies>
